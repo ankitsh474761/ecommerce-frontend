@@ -24,7 +24,6 @@ import UpdateProduct from './pages/Admin/UpdateProduct';
 import Search from './pages/Search';
 import ProductDetails from './pages/ProductDetails';
 import CartPage from './pages/CartPage';
-import OrderSuccess from './OrderSuccess';
 import AdminOrders from './pages/Admin/AdminOrders';
 
 
@@ -35,7 +34,6 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cart/ordersuccess" element={<OrderSuccess />} />
 
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/search" element={<Search />} />
