@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to top, #0a4da4 0%, #123575 100%);/* Footer background color */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   color: white;
+   position: sticky;
+   bottom: 0;
+  }
+  
+  .footer-head {
+    margin-bottom: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white; /* Link color */
+    transition: 0.3s ease-in-out;
+  }
+  
+  .links a:hover {
+    color: #e5ff00; /* Link color on hover */
+  }
