@@ -29,12 +29,11 @@ import AdminOrders from './pages/Admin/AdminOrders';
 
 
 function App() {
-  axios.defaults.baseURL="http://localhost:4000";
+  axios.defaults.baseURL = "https://ecommerce-backend-1-fze9.onrender.com/";
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/search" element={<Search />} />
         <Route path="/cart" element={<CartPage />} />

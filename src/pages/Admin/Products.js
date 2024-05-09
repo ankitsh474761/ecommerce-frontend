@@ -44,7 +44,7 @@ const Products = () => {
                 <div className="product-card" title="Update the product">
                   <div className="product-img">
                     <img
-                      src={`http://localhost:4000/upload/${prod.photo}`}
+                      src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
                       width={"100px"}
                       height={"100px"}
                       alt={prod.name}

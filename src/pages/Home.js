@@ -152,7 +152,7 @@ const Home = () => {
           </div>
         </div>
         <div className="homeright">
-          <h1 style={{textAlign:"center"}}>All Products</h1>
+          <h1 style={{ textAlign: "center" }}>All Products</h1>
           <div className="pro">
             {products &&
               products?.map((prod) => (
@@ -160,7 +160,7 @@ const Home = () => {
                   <div className="pro-cd" key={prod._id}>
                     <div className="pro-img">
                       <img
-                        src={`http://localhost:4000/upload/${prod.photo}`}
+                        src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
                         width="100px"
                         height={"100px"}
                       />

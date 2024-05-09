@@ -14,7 +14,7 @@ const Search = () => {
 const navigate = useNavigate();
   return (
     <Layout title={"Search Results"}>
-      <div className="admin-container" style={{marginBottom:"90px"}}>
+      <div className="admin-container" style={{ marginBottom: "90px" }}>
         <div className="search-results">
           <h1 style={{ fontSize: "30px" }}>Search Results</h1>
           {values?.result.length < 1 ? (
@@ -31,7 +31,7 @@ const navigate = useNavigate();
               <div className="card">
                 <div className="card-img">
                   <img
-                    src={`http://localhost:4000/upload/${prod.photo}`}
+                    src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
                     alt={prod.name}
                     height={"100px"}
                     width={"100px"}

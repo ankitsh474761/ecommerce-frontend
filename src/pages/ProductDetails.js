@@ -88,7 +88,7 @@ const ProductDetails = () => {
             {relatedProduct.map((prod) => (
               <div className="related-product" key={prod._id}>
                 <img
-                  src={`http://localhost:4000/upload/${prod.photo}`}
+                  src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
                   alt={prod.name}
                   height={"100px"}
                   width={"100px"}
@@ -112,7 +112,10 @@ const ProductDetails = () => {
                     >
                       Add to Cart
                     </button>
-                    <button style={{marginLeft:"4px"}} onClick={() => navigate(`/product/${prod._id}`)}>
+                    <button
+                      style={{ marginLeft: "4px" }}
+                      onClick={() => navigate(`/product/${prod._id}`)}
+                    >
                       More Details
                     </button>
                   </div>
