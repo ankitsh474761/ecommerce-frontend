@@ -1,13 +1,13 @@
 .home-container{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .homeleft{
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 400px;
+    height: 100%;
     margin-top: 1em;
     left: 3em;
     top: 6em;
@@ -16,7 +16,6 @@
 .filterByCategory{
     display: flex;
     flex-direction: column;
-
 }
 .filterByPrice{
     display: flex;
@@ -36,6 +35,7 @@
 }
 .homeright{
     width: 70%;
+    height: 100%;
 }
 .pro{
     display: grid;
