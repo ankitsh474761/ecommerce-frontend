@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="footer">
       <h1 className="footer-head">All Rights Reserved &copy; AS</h1>
       <p className="links">
-        <Link to={"/about"}>About</Link>
-        <Link to={"/contact"}>Contact</Link>
-        <Link to={"/policy"}>Privacy Policy</Link>
+        <Link to={"#"}>About</Link>
+        <Link to={"#"}>Contact</Link>
+        <Link to={"#"}>Privacy Policy</Link>
       </p>
     </div>
   );
