@@ -91,6 +91,11 @@
     font-size: medium;
     margin-bottom: 7px;
 }
+@media (max-width:1140px) {
+    .flexbtns button{
+        margin-top: 3px;
+    }
+}
  @media (max-width:675px) {
 
  .home-container{
