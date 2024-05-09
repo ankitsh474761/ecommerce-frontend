@@ -152,7 +152,7 @@ const Home = () => {
           </div>
         </div>
         <div className="homeright">
-          <h1>All Products</h1>
+          <h1 style={{textAlign:"center"}}>All Products</h1>
           <div className="pro">
             {products &&
               products?.map((prod) => (
