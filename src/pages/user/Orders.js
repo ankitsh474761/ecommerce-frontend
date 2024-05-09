@@ -27,10 +27,10 @@ const Orders = () => {
   return (
     <Layout title={"Your Orders "}>
       <div className="order-container">
-        <div className="O-left">
+        <div className="O-lefts">
           <UserMenu />
         </div>
-        <div className="O-right">
+        <div className="O-rights">
           <h1
             style={{
               textAlign: "center",

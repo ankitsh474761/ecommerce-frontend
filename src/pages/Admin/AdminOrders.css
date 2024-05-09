@@ -42,25 +42,24 @@ table tbody tr {
 table tbody td {
   border-top: 4px solid rgb(2, 2, 2);
 }
-@media (max-width: 800px) {
-  .O-left {
+@media (max-width: 930px) {
+    table th,
+  table td {
+    font-size: medium;
+  }
+  .O-left{
     width: 100%;
-    position: relative;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .O-left{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .O-right {
-    width: 50%;
-  }
-  .order-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 600px) {
   table th,
   table td {
     font-size: medium;

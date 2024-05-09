@@ -8,7 +8,6 @@ const Dashboard = () => {
   return (
     <Layout title={"User Dashboard - Ecommerce App"}>
       <div className="dashboard-container">
-        {/* <div className="Drow"> */}
           <div className="Dleft">
             <UserMenu />
           </div>
