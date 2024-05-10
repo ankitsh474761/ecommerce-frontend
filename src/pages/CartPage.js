@@ -17,9 +17,11 @@ const CartPage = () => {
   const totalPrice = () => {
     try {
       let total = 0;
-      cart?.map((item) => {
-        total = total + item.price;
-      });
+      if(cart?.length){
+        cart?.map((item) => {
+          total = total + item.price;
+        });
+      }
       return total.toLocaleString("en-US", {
         style: "currency",
         currency: "USD",
@@ -153,7 +155,7 @@ const CartPage = () => {
           </h2>
         </div>
         <div className="products">
-          {cart?.map((prod) => (
+          {cart?.length && cart?.map((prod) => (
             <div className="prod">
               <div>
                 <img
