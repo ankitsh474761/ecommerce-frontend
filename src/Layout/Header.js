@@ -31,10 +31,10 @@ const Header = () => {
         user: null,
         token: "",
       });
-        setCart({
-          ...cart,
-          cart: null,
-        });
+        // setCart({
+        //   ...cart,
+        //   cart: null,
+        // });
       localStorage.removeItem("auth");
       localStorage.removeItem("cart");
     },1000)

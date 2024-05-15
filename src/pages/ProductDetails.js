@@ -49,7 +49,7 @@ const ProductDetails = () => {
         <div className="product-details-more">
           <div className="product-image">
             <img
-              src={`http://localhost:4000/upload/${product.photo}`}
+              src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${product.photo}`}
               alt={product.name}
               height={"100px"}
               width={"100px"}
@@ -88,7 +88,7 @@ const ProductDetails = () => {
             {relatedProduct.map((prod) => (
               <div className="related-product" key={prod._id}>
                 <img
-                  src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
+                  src={`https://localhost:4000/upload/${prod.photo}`}
                   alt={prod.name}
                   height={"100px"}
                   width={"100px"}

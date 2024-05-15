@@ -19,8 +19,10 @@ const CartPage = () => {
       let total = 0;
       if(cart?.length){
         cart?.map((item) => {
+          console.log(item.price);
           total = total + item.price;
         });
+        console.log(total);
       }
       return total.toLocaleString("en-US", {
         style: "currency",
