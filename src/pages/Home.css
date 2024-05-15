@@ -34,7 +34,7 @@
     transition: .7s all;
 }
 .homeright{
-    width: 70%;
+    width: 68%;
     height: 100%;
 }
 .pro{
@@ -112,6 +112,7 @@
 @media (max-width:575px) {
     .homeright{
         margin-left: 1.5em;
+        width: 56%;
     }
     
 .pro{

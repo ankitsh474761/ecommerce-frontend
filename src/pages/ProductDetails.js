@@ -88,7 +88,7 @@ const ProductDetails = () => {
             {relatedProduct.map((prod) => (
               <div className="related-product" key={prod._id}>
                 <img
-                  src={`https://localhost:4000/upload/${prod.photo}`}
+                  src={`https://ecommerce-backend-1-fze9.onrender.com/upload/${prod.photo}`}
                   alt={prod.name}
                   height={"100px"}
                   width={"100px"}
